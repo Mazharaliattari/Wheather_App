@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌦 Weather App</h1>
+
+        <div class="search-box">
+
+            <input type="text" id="city" placeholder="Search city...">
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div id="weather">
+
+            <img id="icon" src="">
+
+            <h2 id="cityName"></h2>
+
+            <h1 id="temp"></h1>
+
+            <p id="condition"></p>
+
+            <div class="details">
+
+                <div class="card">
+
+                    <i class="fa-solid fa-droplet"></i>
+
+                    <div>
+                        <h3>Humidity</h3>
+                        <p id="humidity"></p>
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <i class="fa-solid fa-wind"></i>
+
+                    <div>
+                        <h3>Wind</h3>
+                        <p id="wind"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
